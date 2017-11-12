@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Handlee');
+body {
+    overflow-x: hidden;
+}
+
+.bg-image-slideshow {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.bg-image-slideshow .logo {
+    width: 30%;
+    margin: 20% auto 0% auto;
+}
+
+.quote {
+    background: rgb(232, 17, 171);
+    padding: 3em 5em;
+    color: #fff;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2em;
+}
+
+.row-poetry {
+    padding: 5em;
+}
+
+.poetry {
+    padding: 2em 2em;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 2em;
+}
+
+.poetry h5 {
+    font-size: 1em !important;
+    font-weight: bold;
+}
+
+.poetry .poetry-section {
+    margin-bottom: 1em;
+}
+
+.stories {
+    padding: 2em 2em;
+}
+
+.wish {
+    padding: 5em 3em;
+    background: rgb(232, 17, 171);
+    color: #fff;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.4em;
+}
+
+.undangan {
+    padding: 5em 10em !important;
+}
+
+.get-gift {
+    background: rgb(232, 17, 171) !important;
+    color: #fff;
+    font-family: 'Handlee', cursive;
+}
+
+.get-gift:hover {
+    border: 1px rgb(232, 17, 171) solid;
+    background: #fff !important;
+    color: rgb(232, 17, 171);
+    font-family: 'Handlee', cursive;
+    cursor: pointer;
+}
+
+.main-footer {
+    padding: 2em 2em;
+    background: rgb(232, 17, 171) !important;
+    color: #fff;
+    font-family: 'Gochi Hand', cursive;
+}
+
+@media (max-width: 360px) {
+    .showcase {
+        background: url('../images/slide-2.jpg') no-repeat;
+        background-position-x: 78%;
+        background-size: cover;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .showcase .logo {
+        width: 60%;
+        margin: 20% auto;
+    }
+    .quote {
+        background: rgb(232, 17, 171);
+        padding: 10px 20px;
+        color: #fff;
+        font-family: 'Gochi Hand', cursive;
+        font-size: 1.4em;
+    }
+    .row-poetry {
+        padding: 0 !important;
+    }
+    .poetry {
+        padding: 2em 2em;
+        text-align: center;
+        font-family: 'Handlee', cursive;
+    }
+    .poetry h5 {
+        font-size: 0.6em !important;
+        font-weight: bold;
+    }
+    .poetry .poetry-section {
+        margin-bottom: 1em;
+        font-size: .5em;
+    }
+    .stories {
+        padding: 2em 2em;
+    }
+    .wish {
+        padding: 2em 2em;
+        background: rgb(232, 17, 171);
+        color: #fff;
+        font-family: 'Gochi Hand', cursive;
+        font-size: 1.4em;
+    }
+    .undangan {
+        padding: 2em !important;
+    }
+    .get-gift {
+        background: rgb(232, 17, 171) !important;
+        color: #fff;
+        font-family: 'Handlee', cursive;
+    }
+    .main-footer {
+        padding: 2em 2em;
+        background: rgb(232, 17, 171) !important;
+        color: #fff;
+        font-family: 'Gochi Hand', cursive;
+    }
+}
