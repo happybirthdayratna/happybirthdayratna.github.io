@@ -154,6 +154,34 @@ body {
     .undangan {
         padding: 2em !important;
     }
+    .undangan #countdown {
+        background: #222;
+        padding: 1em .4em;
+    }
+    .undangan .day {
+        padding: .2em 0.2em .2em 0.2em;
+        background: #c515d5;
+        color: #fff;
+        font-size: .6em !important;
+    }
+    .undangan .hours {
+        padding: .2em 0.2em .2em 0.2em;
+        background: #c515d5;
+        color: #fff;
+        font-size: .6em !important;
+    }
+    .undangan .minutes {
+        padding: .2em 0.2em .2em 0.2em;
+        background: #c515d5;
+        color: #fff;
+        font-size: .6em !important;
+    }
+    .undangan .seconds {
+        padding: .2em 0.2em .2em 0.2em;
+        background: #c515d5;
+        color: #fff;
+        font-size: .6em !important;
+    }
     .get-gift {
         background: rgb(232, 17, 171) !important;
         color: #fff;
