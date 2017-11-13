@@ -57,6 +57,34 @@ body {
     padding: 5em 10em !important;
 }
 
+.undangan #countdown {
+    background: #222;
+}
+
+.undangan .day {
+    padding: .5em 1em .5em 1em;
+    background: #c515d5;
+    color: #fff;
+}
+
+.undangan .hours {
+    padding: .5em 1em .5em 1em;
+    background: #c515d5;
+    color: #fff;
+}
+
+.undangan .minutes {
+    padding: .5em 1em .5em 1em;
+    background: #c515d5;
+    color: #fff;
+}
+
+.undangan .seconds {
+    padding: .5em 1em .5em 1em;
+    background: #c515d5;
+    color: #fff;
+}
+
 .get-gift {
     background: rgb(232, 17, 171) !important;
     color: #fff;
